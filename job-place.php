@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Job Place
+ * Plugin Name:       chatGPT
  * Description:       A Job posting platform made by WordPress.
  * Requires at least: 5.8
  * Requires PHP:      7.0
@@ -19,7 +19,7 @@ add_action( 'admin_menu', 'jobplace_init_menu' );
  * @return void
  */
 function jobplace_init_menu() {
-    add_menu_page( __( 'Job Place', 'jobplace'), __( 'Job Place', 'jobplace'), 'manage_options', 'jobplace', 'jobplace_admin_page', 'dashicons-admin-post', '2.1' );
+    add_menu_page( __( 'chatGPT', 'jobplace'), __( 'chatGPT', 'jobplace'), 'manage_options', 'jobplace', 'jobplace_admin_page', 'dashicons-admin-post', '2.1' );
 }
 
 /**
